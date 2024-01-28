@@ -1,4 +1,4 @@
-# Pizza Ordering App
+# Pizza Pie
 
 This application simulates a pizza ordering system where users can place orders, track order stages, and view order details. It utilizes React for the user interface and Redux for state management.
 
@@ -11,6 +11,10 @@ This application simulates a pizza ordering system where users can place orders,
 - Place New Order Form
 
 ![Project Screenshot](/src/images/pizzaOrderForm.png)
+
+## Deployment
+
+Access the deployed version of the project [here](https://pizzapie-92dp.onrender.com).
 
 ## Features
 
@@ -30,7 +34,7 @@ To run this app locally, follow these simple steps:
 
 4. **Start Development Server:** `npm start`
 
-5. **View in Browser:** Open [http://localhost:3000](http://localhost:3000) in your preferred browser.
+5. **View in Browser:** Open app in your preferred browser.
 
 ## Technologies Used
 
@@ -38,6 +42,7 @@ To run this app locally, follow these simple steps:
 - Redux for state management
 - `react-toastify` for notifications
 - HTML, CSS, JS
+
 
 ## Authors
 
