@@ -143,7 +143,8 @@ input {
 @media screen and (max-width: 1200px) {
     .modal-content {
         width: 90%;
-        height: 90vh;      
+        height: 90vh;   
+        overflow-y: scroll;   
     }
 
     .modal-header h2 {
