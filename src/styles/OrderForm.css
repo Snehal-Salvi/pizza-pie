@@ -140,10 +140,10 @@ input {
 }
 
 /* Responsive styles for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .modal-content {
         width: 80%;
-        height: auto;       
+        height: 120vh;       
     }
 
     .modal-header h2 {
@@ -158,6 +158,7 @@ input {
 
     label {
         width: 100%;
+        font-size: 50px;
     }
 
     .pizza-type,
@@ -168,6 +169,7 @@ input {
         display: inline;
         margin-top: 8px;
         margin-bottom: 8px;
+        width: auto;
     }
 
     .pizza-type label,
@@ -176,15 +178,16 @@ input {
     margin: 10px;
     }
 
-    .pizza-type img,
-    .pizza-size img {
-        width: 30px;
-        height: 30px;
-     
+    .pizza-type img{
+        width: 180px;
+        height: 120px;
     }
 
     .pizza-size img {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
+    
     }
+
+ 
 }

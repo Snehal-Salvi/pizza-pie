@@ -96,6 +96,22 @@
   .pizza-stages {
     width: 200px; 
   }
+
+  .pizza-stages h2 {
+    width: 50%;
+    font-size: 15px;
+  }
+
+.no-orders-card{
+  width: 200px;
+  height: 100px;
+  font-size: 12px;
+}
+
+.order-card{
+  width: 160px;
+}
+
   }
 
 @media (max-width: 768px) {
@@ -114,6 +130,30 @@
     margin: 10px auto;
     margin-left: 95px;  
   }
+
+  .pizza-stages h2 {
+    width: 50%;
+    font-size: 30px;
+  }
+
+.no-orders-card{
+  width: 400px;
+  height: fit-content;
+  font-size: 25px;
+}
+
+.order-card{
+  width: 300px;
+}
+
+.order-card p {
+  font-size: 30px;
+}
+
+.next-button {
+  width: 250px;
+  font-size: 30px;
+}
 
 }
 
