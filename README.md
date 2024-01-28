@@ -4,7 +4,11 @@ This application simulates a pizza ordering system where users can place orders,
 
 # Project Snippet
 
+- Interface
+
 ![Project Screenshot](/src/images/appInterface.png)
+
+- Place New Order Form
 
 ![Project Screenshot](/src/images/pizzaOrderForm.png)
 
