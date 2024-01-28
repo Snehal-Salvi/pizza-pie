@@ -1,0 +1,115 @@
+/* CSS Styles for Order Details table */
+
+.order-details-container {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .order-details-container h1 {
+    color: rgb(255, 255, 255);
+    background-color: #143a3d;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 100px;
+  }
+  
+  table {
+    width: 50%;
+    margin-top: 20px;
+    align-items: center;
+    margin: 0 300px;
+    border: 2px solid black;
+    justify-content: center;
+  }
+  
+  thead {
+    background-color: #51a1f0;
+  }
+  
+  thead tr:nth-child(odd) {
+    background-color: #66f9f7;
+  }
+  
+  th, td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #51a1f0;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffc0cb;
+  }
+
+  tfoot td {
+    background-color: #d82e7a;
+    color: #191919; 
+    font-weight: bolder;
+  }
+  
+  button {
+    width: 200px;
+    padding: 6px 10px;
+    background-color: #e60000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff4d4d;
+  }
+
+  .readyto-picked-button{
+    width: 200px;
+    background-color: #e9ff6a;
+   color: #000000; 
+   font-weight: bold;
+  }
+
+  .readyto-picked-button:hover{
+    background-color: #7e8a38;
+  }
+
+.order-picked-button {
+  width: 200px;
+   background-color: #306f32;
+  color: #fff; 
+}
+
+.order-picked-button:hover{
+  background-color: #4caf50;
+}
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .order-details-container {
+    text-align: center;
+    width: 600px;
+    margin-left: 95px;
+  }
+
+  .order-details-container h1 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  table {
+    width: 100%;
+    margin: 0;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
