@@ -140,15 +140,16 @@ input {
 }
 
 /* Responsive styles for smaller screens */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .modal-content {
-        width: 80%;
-        height: 120vh;       
+        width: 90%;
+        height: 90vh;      
     }
 
     .modal-header h2 {
         margin-left: 0;
         text-align: center; 
+        margin-top: 0;
     }
 
     .pizza-base {
@@ -158,7 +159,7 @@ input {
 
     label {
         width: 100%;
-        font-size: 50px;
+        font-size: 20px;
     }
 
     .pizza-type,
@@ -179,8 +180,8 @@ input {
     }
 
     .pizza-type img{
-        width: 180px;
-        height: 120px;
+        width: 150px;
+        height: 100px;
     }
 
     .pizza-size img {
